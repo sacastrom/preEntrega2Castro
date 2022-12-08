@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Contacto</title>
+</head>
+<body>
+    <header class="container">
+        <a class="logo-link" href="./index.html"><img class="logo" src="./images/UMAMI LOGO.jpg" alt=""></a>
+        <div class="header">
+            <nav>
+                <ul class="navbar">
+                    <li><a href="./index.html">Inicio</a></li>
+                    <li><a href="./category.html">Categorías</a></li>
+                    <li><a href="./aboutUs.html">Nosotros</a></li>
+                    <li><a href="./contact.html">Contáctenos</a></li>
+                    <li><a href="./location.html">Ubicación</a></li>
+                </ul>
+            </nav>
+            <input class="buscador" type="text" placeholder="Buscar productos, marcas, etc">
+            <a href=""><img class="usuario" src="./images/usuario.png" alt=""></a>
+            <a href=""><img class="carrito" src="./images/icono-carrito.png" alt=""></a>
+        </div>
+    </header>
+    <main>
+        <div class="section-form">
+            <div class="formulario">
+                <h1>Formulario de Contacto</h1>
+                <h5>Escríbenos y en breve nos pondremos en contacto</h5>
+                <form action="">
+                    <p>
+                        <label for="nombre" class="colocar_nombre">Nombre
+                            <span class="obligatorio">*
+
+                            </span>
+                        </label>
+                        <input name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre" type="text">
+                    </p>
+                    <p>
+                        <label for="email" class="colocar_email">Email
+                            <span class="obligatorio">*
+
+                            </span>
+                        </label>
+                        <input name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu email" type="email">
+                    </p>
+                    <p>
+                        <label for="telefone" class="colocar_telefono">Teléfono
+                            <span class="obligatorio">*
+
+                            </span>
+                        </label>
+                        <input name="introducir_telefono" id="tel" required="obligatorio" placeholder="Escribe tu Teléfono" type="tel">
+                    </p>
+                    <p>
+                        <label for="website" class="colocar_website">Sitio Web
+                        </label>
+                        <input name="introducir_website" id="website" required="obligatorio" placeholder="Escribe la URL de tu Sitio Web" type="url">
+                    </p>
+                    <p>
+                        <label for="asunto" class="colocar_asunto">Asunto
+                            <span class="obligatorio">*
+
+                            </span>
+                        </label>
+                        <input name="introducir_asunto" id="asunto" required="obligatorio" placeholder="Escribe un asunto" type="text">
+                    </p>
+                    <p>
+                        <label for="mensaje" class="colocar_mensaje">Mensaje
+                            <span class="obligatorio">*
+
+                            </span>
+                        </label>
+                        <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea>
+                    </p>
+                    <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p>
+
+                    </button>
+                    <p class="aviso"><span class="obligatorio">*
+
+                    </span>los campos son obligatorios.</p>
+                </form>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        <ul class="list-footer">
+            <li class="list-social"><a href=""><img class="social-logo" src="./images/logo facebook.png" alt=""></a></li>
+            <li class="list-social"><a href=""><img class="social-logo" src="./images/twitter.png" alt=""></a></li>
+            <li class="list-social"><a href=""><img class="social-logo" src="./images/intagram.png" alt=""></a></li>
+        </ul>
+    </footer>
+</body>
+</html>
