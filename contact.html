@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
     <title>Contacto</title>
 </head>
@@ -26,7 +27,7 @@
     </header>
     <main>
         <div class="section-form">
-            <div class="formulario">
+            <div class="formulario" data-aos="zoom-in" data-aos-duration="3000">
                 <h1>Formulario de Contacto</h1>
                 <h5>Escríbenos y en breve nos pondremos en contacto</h5>
                 <form action="">
@@ -93,5 +94,9 @@
             <li class="list-social"><a href=""><img class="social-logo" src="./images/intagram.png" alt=""></a></li>
         </ul>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

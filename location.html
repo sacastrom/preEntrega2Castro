@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
     <title>Ubicación</title>
 </head>
@@ -24,7 +25,7 @@
             <a href=""><img class="carrito" src="./images/icono-carrito.png" alt=""></a>
         </div>
     </header>
-    <main class="container">
+    <main class="container" data-aos="fade-up" data-aos-duration="3000">
         <h1>¿Dónde nos encontramos?</h1>
         <h2>Estamos en Dr. Pedro Ignacio Rivera 3006, Coghlan, CABA.</h2>
         <h2>Todos los días de 10 a 18 hs.</h2>
@@ -37,5 +38,9 @@
             <li class="list-social"><a href=""><img class="social-logo" src="./images/intagram.png" alt=""></a></li>
         </ul>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
