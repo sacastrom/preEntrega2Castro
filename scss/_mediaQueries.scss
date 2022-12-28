@@ -1,0 +1,141 @@
+$azul: rgb(47, 47, 113);
+
+@media only screen and (max-width: 768px){
+
+    ul li:last-child{
+        padding-right: 5px;
+    }
+    
+    .categories{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        justify-items: center;
+        .category{
+            width: 80%;
+            margin: 20px 0;
+        }
+        .top-vendidos{
+            width: 80%;
+            margin: 20px 0;
+        }
+    }
+
+    .social-logo{
+        width: 60px;
+        height: 60px;    
+    }
+
+    .list-categories{
+        display: none;
+    }
+
+    .container-categories{
+        .image-categories{
+            grid-template-columns: repeat(3,1fr);
+            grid-template-rows: repeat(3,1fr);
+            gap: 20px;
+            align-items: center;
+            margin-right: 40px;
+            width: 100%;
+            align-content: center;
+            .img-category{
+                width: 88%;
+            }
+        }
+    }
+    
+    h4{
+        font-size: 40px;
+    }
+
+    h3{
+        font-size: 20px;
+    }
+
+    h1{
+        font-size: 50px;
+    }
+
+    h2{
+        font-size: 30px;
+    }
+
+    .container{
+        margin: 0px;
+    }
+}
+
+@media only screen and (max-width: 576px){
+    .container{
+        flex-direction: column;
+        padding-right: 0px;
+    }
+
+    h4{
+        font-size: 30px;
+    }
+
+    h3{
+        font-size: 25px;
+    }
+
+    .logo{
+        width: 120px;
+        height: 120px;
+        border-radius: 12px;
+    }
+
+    .logo-link{
+        margin: auto;
+    }
+
+    .categories{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-items: center;
+        .category{
+            width: 60%;
+            margin: 20px 0;
+        }
+        .top-vendidos{
+            width: 60%;
+            margin: 20px 0;
+        }
+    }
+
+    ul li:last-child{
+        padding-right: 0px;
+    }
+
+    .social-logo{
+        width: 50px;
+        height: 50px;    
+    }
+
+    .list-categories{
+        display: none;
+    }
+
+    .container-categories{
+        .image-categories{
+            grid-template-columns: repeat(2,1fr);
+            grid-template-rows: repeat(2,1fr);
+            gap: 20px;
+            align-items: center;
+            margin-right: 20px;
+            width: 100%;
+        }
+    }
+    
+    h1{
+        font-size: 40px;
+    }
+
+    h2{
+        font-size: 20px;
+    }
+
+    .container{
+        margin: 0px;
+    }
+}
