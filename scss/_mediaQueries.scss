@@ -2,10 +2,14 @@ $azul: rgb(47, 47, 113);
 
 @media only screen and (max-width: 768px){
 
-    ul li:last-child{
-        padding-right: 5px;
+    li.nav-item {
+        border-right: none;
     }
     
+    li.dropdown-li {
+        border-right: none;
+    }
+
     .categories{
         display: grid;
         grid-template-columns: repeat(2,1fr);

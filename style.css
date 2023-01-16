@@ -156,8 +156,11 @@ span {
 }
 
 @media only screen and (max-width: 768px) {
-  ul li:last-child {
-    padding-right: 5px;
+  li.nav-item {
+    border-right: none;
+  }
+  li.dropdown-li {
+    border-right: none;
   }
   .categories {
     display: grid;
@@ -289,7 +292,6 @@ header .logo {
 ul li {
   padding-left: 15px;
   padding-right: 15px;
-  border-right: none;
   list-style: none;
   border-right: 1px solid #9b9b9a;
   text-decoration-style: none;
